@@ -1,0 +1,59 @@
+baseurl = "https://fboehm.us/"
+languageCode = "en-us"
+title = "Frederick Boehm's website"
+theme = "paper"
+googleAnalytics = "UA-46757486-5"
+disqusShortname = "fred3"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib$", "\\.lua$"]
+
+[permalinks]
+    post = ":slug/"
+
+## Main Menu
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "/about"
+[[menu.main]]
+    name = "software"
+    identifier = "software"
+    weight = 200
+    url = "/software"
+[[menu.main]]
+    name = "teaching"
+    identifier = "teaching"
+    weight = 200
+    url = "/teaching"
+[[menu.main]]
+    name = "publications"
+    identifier = "publications"
+    weight = 200
+    url = "/publications"
+[[menu.main]]
+    name = "presentations"
+    identifier = "presentations"
+    weight = 200
+    url = "/presentations"
+
+[params]
+    description = "Frederick Boehm's website"
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "images/vitruvian_mouse-small.jpg"
+
+    [params.logo]
+    url = "/images/vitruvian_mouse-small.jpg"
+    width = 50
+    height = 50
+    alt = "Logo"
+
