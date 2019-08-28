@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib$", "\\.
     name = "software"
     identifier = "software"
     weight = 200
-    url = "/page/software"
+    url = "software"
 [[menu.main]]
     name = "teaching"
     identifier = "teaching"

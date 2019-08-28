@@ -1,6 +1,6 @@
 --- 
 author: "Frederick Boehm"
-date: "2019-08-28 09:31:00" 
+date: "2019-08-28 10:02:27" 
 title: "Publications"
 output:
   html_document:
