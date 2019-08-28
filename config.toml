@@ -14,27 +14,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib$", "\\.
     name = "about"
     identifier = "about"
     weight = 200
-    url = "/about"
+    url = "/page/about"
 [[menu.main]]
     name = "software"
     identifier = "software"
     weight = 200
-    url = "/software"
+    url = "/page/software"
 [[menu.main]]
     name = "teaching"
     identifier = "teaching"
     weight = 200
-    url = "/teaching"
+    url = "/page/teaching"
 [[menu.main]]
     name = "publications"
     identifier = "publications"
     weight = 200
-    url = "/publications"
+    url = "/page/publications"
 [[menu.main]]
     name = "presentations"
     identifier = "presentations"
     weight = 200
-    url = "/presentations"
+    url = "/page/presentations"
 
 [params]
     description = "Frederick Boehm's website"
