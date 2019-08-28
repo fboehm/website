@@ -7,7 +7,7 @@ disqusShortname = "fred3"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib$", "\\.lua$"]
 
 [permalinks]
-    post = ":slug/"
+    post = "post/:slug/"
 
 ## Main Menu
 [[menu.main]]
@@ -19,7 +19,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$", "\\.bib$", "\\.
     name = "software"
     identifier = "software"
     weight = 200
-    url = "software"
+    url = "/page/software"
 [[menu.main]]
     name = "teaching"
     identifier = "teaching"

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.57.2" />
+
+
+<title>Getting started with blogdown - Frederick Boehm&#39;s website</title>
+<meta property="og:title" content="Getting started with blogdown - Frederick Boehm&#39;s website">
+
+
+  <link href='https://fboehm.us/images/vitruvian_mouse-small.jpg' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="stylesheet" href="/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/" class="nav-logo">
+    <img src="/images/images/vitruvian_mouse-small.jpg"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/page/about">about</a></li>
+    
+    <li><a href="/page/presentations">presentations</a></li>
+    
+    <li><a href="/page/publications">publications</a></li>
+    
+    <li><a href="software">software</a></li>
+    
+    <li><a href="/page/teaching">teaching</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Getting started with blogdown</h1>
+
+    
+    <span class="article-date">2017-05-07</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p>While browsing the internet, I stumbled upon Rstudio’s new package <code>blogdown</code>. I read <a href="http://kbroman.org/blog/">posts from Karl Broman</a> and found the <a href="https://bookdown.org/yihui/blogdown/">the book</a> that the package author - Yihui Xie - freely shares.</p>
+<p>One tricky part of setting up the website involved the DNS settings. I bought the site <code>fboehm.us</code> through google domains. While the blogdown book provides instructions for DNS settings for other domain name providers, at the time I set up my site, they hadn’t written instructions for use with google domains. Fortunately, it was not too difficult, and, through trial and error, I managed to succeed.</p>
+<p>Under “Configure DNS” button on Google Domains, I chose “Use custom name servers”. Clicking on “Edit” enabled me to enter the server names that end in “nsone.net”.</p>
+<p>In my netlify account page, under “Settings”, I edited “DNS Records” by creating a new record for CNAME. I entered host name: <code>www.fboehm.us</code> and target: <code>fboehm.us</code>. I hope that I set it up properly.</p>
+
+    </div>
+  </article>
+
+  
+<section id="comments">
+  <div id="disqus_thread"></div>
+  <script>
+  var disqus_config = function () {
+  
+  };
+  (function() {
+    var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
+    var d = document, s = d.createElement('script');
+    s.src = '//fred3.disqus.com/embed.js'; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-46757486-5', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+  </body>
+</html>
+
