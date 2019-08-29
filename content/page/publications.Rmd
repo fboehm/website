@@ -4,8 +4,8 @@ date: "`r lubridate::now()`"
 title: "Publications"
 output:
   blogdown::html_page:
-    keep_md: false
     pandoc_args: --lua-filter=multiple-bibliographies.lua
+    toc: false
 bibliography_peer: peer.bib
 bibliography_preprint: preprint.bib
 bibliography_books: books.bib
