@@ -10,7 +10,7 @@
 <meta property="og:title" content="reticulate R package &amp; Travis - Frederick Boehm&#39;s website">
 
 
-  <link href='https://fboehm.us/images/vitruvian_mouse-small.jpg' rel='icon' type='image/x-icon'/>
+  <link href='/images/vitruvian_mouse-small.jpg' rel='icon' type='image/x-icon'/>
 
 
 
@@ -19,13 +19,9 @@
 
 
 
-
-
-
-<link rel="stylesheet" href="/css/fonts.css" media="all">
+<link rel="icon" href="/images/" type="image/x-icon"/>
 <link rel="stylesheet" href="/css/main.css" media="all">
-
-
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
 
   </head>
   <body>
@@ -33,9 +29,9 @@
       <header class="header">
         <nav class="nav">
   <a href="/" class="nav-logo">
-    <img src="/images/images/vitruvian_mouse-small.jpg"
-         width="50"
-         height="50"
+    <img src="/images//images/vitruvian_mouse-small.jpg" 
+         width="50" 
+         height="50" 
          alt="Logo">
   </a>
 
@@ -47,7 +43,7 @@
     
     <li><a href="/page/publications">publications</a></li>
     
-    <li><a href="software">software</a></li>
+    <li><a href="/page/software">software</a></li>
     
     <li><a href="/page/teaching">teaching</a></li>
     
@@ -67,7 +63,7 @@
     <h1 class="article-title">reticulate R package &amp; Travis</h1>
 
     
-    <span class="article-date">2018-04-01</span>
+    <span class="article-date">April 1, 2018</span>
     
 
     <div class="article-content">
@@ -94,48 +90,39 @@
     </div>
   </article>
 
-  
-<section id="comments">
   <div id="disqus_thread"></div>
-  <script>
-  var disqus_config = function () {
-  
-  };
-  (function() {
-    var inIFrame = function() {
-      var iframe = true;
-      try { iframe = window.self !== window.top; } catch (e) {}
-      return iframe;
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
     };
-    if (inIFrame()) return;
-    var d = document, s = d.createElement('script');
-    s.src = '//fred3.disqus.com/embed.js'; s.async = true;
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-  })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</section>
-
-
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fred3" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 </main>
 
       <footer class="footer">
         <ul class="footer-links">
+          
           <li>
-            <a href="/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
-          </li>
-          <li>
-            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/images/hugo-logo.png" width="22" height="22"></a>
           </li>
         </ul>
       </footer>
 
     </div>
-    
-
-    
 
     
 <script type="application/javascript">

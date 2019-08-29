@@ -3,112 +3,112 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fboehm.us/</loc>
+    <loc>/</loc>
+    <lastmod>2019-08-28T21:13:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/</loc>
+    <lastmod>2019-08-28T21:13:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/publications/</loc>
+    <lastmod>2019-08-28T21:13:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/page/publications/</loc>
     <lastmod>2019-08-28T10:02:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/page/</loc>
-    <lastmod>2019-08-28T10:02:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fboehm.us/page/publications/</loc>
-    <lastmod>2019-08-28T10:02:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fboehm.us/page/teaching/</loc>
+    <loc>/page/teaching/</loc>
     <lastmod>2019-08-28T09:24:51+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/page/software/</loc>
+    <loc>/page/software/</loc>
     <lastmod>2019-08-28T09:24:50+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/page/presentations/</loc>
+    <loc>/page/presentations/</loc>
     <lastmod>2019-08-28T09:24:49+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/internet-social-media/</loc>
+    <loc>/post/internet-social-media/</loc>
     <lastmod>2018-12-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/tags/pkgdown/</loc>
+    <loc>/tags/pkgdown/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/tags/r-package/</loc>
+    <loc>/tags/r-package/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/r-package-site-incorporation-into-my-personal-website/</loc>
+    <loc>/post/r-package-site-incorporation-into-my-personal-website/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/reticulate-r-package-travis/</loc>
+    <loc>/post/reticulate-r-package-travis/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/limmbo2-r-package-now-on-github/</loc>
+    <loc>/post/limmbo2-r-package-now-on-github/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/joan-didions-on-self-respect/</loc>
+    <loc>/post/joan-didions-on-self-respect/</loc>
     <lastmod>2018-11-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/pkgdown-r-package-for-generating-package-websites-on-github/</loc>
+    <loc>/post/pkgdown-r-package-for-generating-package-websites-on-github/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/mathematical-writing-by-donald-knuth-tracy-larrabee-and-paul-roberts/</loc>
+    <loc>/post/mathematical-writing-by-donald-knuth-tracy-larrabee-and-paul-roberts/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/john-robertss-commencement-address/</loc>
+    <loc>/post/john-robertss-commencement-address/</loc>
     <lastmod>2019-05-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/post/getting-started-with-blogdown/</loc>
+    <loc>/post/getting-started-with-blogdown/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fboehm.us/page/publications/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://fboehm.us/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>

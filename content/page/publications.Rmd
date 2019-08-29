@@ -3,7 +3,7 @@ author: "Frederick Boehm"
 date: "`r lubridate::now()`" 
 title: "Publications"
 output:
-  html_document:
+  blogdown::html_page:
     keep_md: false
     pandoc_args: --lua-filter=multiple-bibliographies.lua
 bibliography_peer: peer.bib
