@@ -2,6 +2,7 @@
 author: "Frederick Boehm"
 date: "`r lubridate::now()`" 
 title: "Publications"
+disable_comments: true
 output:
   blogdown::html_page:
     pandoc_args: --lua-filter=multiple-bibliographies.lua

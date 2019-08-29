@@ -1,0 +1,7 @@
+---
+title: "About"
+author: "Frederick Boehm"
+date: "`r lubridate::now()`"
+disable_comments: true
+---
+

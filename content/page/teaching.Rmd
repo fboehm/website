@@ -2,7 +2,7 @@
 title: "Teaching" 
 author: "Frederick Boehm" 
 date: "`r lubridate::now()`" 
-output: html_document 
+disable_comments: true
 ---
 
 

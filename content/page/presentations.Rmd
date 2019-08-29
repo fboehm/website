@@ -2,9 +2,7 @@
 title: "Presentations" 
 author: "Frederick Boehm" 
 date: "`r lubridate::now()`" 
-output: 
-  html_document:
-    keep_md: true
+disable_comments: true
 ---
 
 
